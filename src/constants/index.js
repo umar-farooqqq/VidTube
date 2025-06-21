@@ -1,57 +1,48 @@
 export const sidebar_content = [
-
   {
     title: "Home",
-    imgUrl: "./src/assets/home.svg",
+    imgUrl: "/home.svg",
   },
   {
     title: "Shorts",
-    imgUrl: "./src/assets/short.svg",
+    imgUrl: "/short.svg",
   },
   {
     title: "Subscription",
-    imgUrl: "./src/assets/subscription.svg",
+    imgUrl: "/subscription.svg",
   },
-  
 ];
 
-
 export const sidebar_content1 = [
-
   {
     title: "Trending",
-    imgUrl: "./src/assets/trending.svg",
+    imgUrl: "/trending.svg",
   },
   {
     title: "Music",
-    imgUrl: "./src/assets/music.svg",
+    imgUrl: "/music.svg",
   },
   {
     title: "Gaming",
-    imgUrl: "./src/assets/games.svg",
+    imgUrl: "/games.svg",
   },
   {
     title: "News",
-    imgUrl: "./src/assets/news.svg",
+    imgUrl: "/news.svg",
   },
   {
     title: "Sports",
-    imgUrl: "./src/assets/sports.svg",
+    imgUrl: "/sports.svg",
   },
-  
 ];
 
 export const sidebar_content2 = [
-
   {
     title: "Settings",
-    imgUrl: "./src/assets/settings.svg",
+    imgUrl: "/settings.svg",
   },
   {
     title: "Help",
-    imgUrl: "./src/assets/help.svg",
+    imgUrl: "/help.svg",
   },
-  
 ];
-
-
