@@ -33,7 +33,7 @@ const Feed = () => {
 
   return (
     <div className="bg-white p-4">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-2 sm:px-4 md:px-6 lg:px-10 py-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-1 sm:px-4 md:px-6 lg:px-10 py-4">
         {homeVideos.map((item, index) => (
           <Link to={`/video/${item.id}`} className="block" key={index}>
             <div className="border-2 border-black-300 rounded-xl overflow-hidden hover:bg-gray-200 cursor-pointer">
